@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Artigiano Gelato | Heladería Artesanal</title>
+    <meta name="description" content="Descubre el verdadero sabor artesanal con nuestra selección premium de helados, elaborados con ingredientes 100% naturales bajo la tradición Heritage.">
+    
+    <!-- Google Fonts: Playfair Display for Serif (Headings) & Inter for Sans-serif (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-text">L'Artigiano</span>
+            </a>
+            
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#sabores" class="nav-link">Sabores</a></li>
+                    <li class="nav-item"><a href="#historia" class="nav-link">Historia</a></li>
+                    <li class="nav-item"><a href="#ubicacion" class="nav-link">Ubicación</a></li>
+                </ul>
+                <a href="#pedir" class="btn btn-primary nav-btn">Pide Ahora</a>
+            </nav>
+
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir menú">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-bg">
+                <img src="https://images.unsplash.com/photo-1557142046-c704a3adf364?auto=format&fit=crop&q=80&w=2000" alt="Fondo de helado artesanal de vainilla" class="hero-img">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="container hero-content fade-in-up">
+                <p class="hero-subtitle">Tradición & Pasión</p>
+                <h1 class="hero-title">El Arte del<br>Verdadero Gelato.</h1>
+                <p class="hero-text">Elaborado diariamente con leche fresca de pastoreo e ingredientes selectos de origen único. Una experiencia sensorial que trasciende el tiempo.</p>
+                <div class="hero-actions">
+                    <a href="#sabores" class="btn btn-primary btn-large">Descubre la Colección</a>
+                    <a href="#historia" class="btn btn-secondary btn-large">Nuestra Filosofía</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bento Grid Sabores Section -->
+        <section class="sabores section" id="sabores">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <h2 class="section-title">Nuestra Colección</h2>
+                    <p class="section-desc">Clásicos reimaginados y nuevas creaciones, todos elaborados con la devoción de la artesanía tradicional.</p>
+                </div>
+
+                <div class="bento-grid">
+                    <!-- Sabor 1 (Large) -->
+                    <div class="bento-item bento-large fade-in-up">
+                        <img src="assets/vainilla.png" alt="Vainilla de Madagascar" class="bento-img">
+                        <div class="bento-content">
+                            <h3 class="bento-title">Vainilla de Madagascar</h3>
+                            <p class="bento-desc">Vainas selectas infundidas a fuego lento.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Sabor 2 (Small) -->
+                    <div class="bento-item fade-in-up" style="transition-delay: 0.1s;">
+                        <img src="assets/pistacho.png" alt="Pistacho Siciliano" class="bento-img">
+                        <div class="bento-content">
+                            <h3 class="bento-title">Pistacho Siciliano</h3>
+                            <p class="bento-desc">Tostado artesanalmente.</p>
+                        </div>
+                    </div>
+
+                    <!-- Sabor 3 (Small) -->
+                    <div class="bento-item fade-in-up" style="transition-delay: 0.2s;">
+                        <img src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&q=80&w=800" alt="Fresa de Campo" class="bento-img">
+                        <div class="bento-content">
+                            <h3 class="bento-title">Fresa Silvestre</h3>
+                            <p class="bento-desc">Sorberte fresco y ligero.</p>
+                        </div>
+                    </div>
+
+                    <!-- Sabor 4 (Small) -->
+                    <div class="bento-item fade-in-up" style="transition-delay: 0.1s;">
+                        <img src="https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=800" alt="Avellana Piamonte" class="bento-img">
+                        <div class="bento-content">
+                            <h3 class="bento-title">Avellana Piamonte</h3>
+                            <p class="bento-desc">Cremoso y profundo.</p>
+                        </div>
+                    </div>
+
+                    <!-- Sabor 5 (Large) -->
+                    <div class="bento-item bento-large fade-in-up" style="transition-delay: 0.2s;">
+                        <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=800" alt="Chocolate Origen 70%" class="bento-img">
+                        <div class="bento-content">
+                            <h3 class="bento-title">Chocolate Origen 70%</h3>
+                            <p class="bento-desc">Cacao puro de pequeñas fincas ecuatorianas, intenso y sedoso.</p>
+                        </div>
+                    </div>
+
+                    <!-- Sabor 6 (Small) -->
+                    <div class="bento-item fade-in-up" style="transition-delay: 0.3s;">
+                        <img src="https://images.unsplash.com/photo-1580915411954-282cb1b0d780?auto=format&fit=crop&q=80&w=800" alt="Stracciatella" class="bento-img">
+                        <div class="bento-content">
+                            <h3 class="bento-title">Stracciatella Clásica</h3>
+                            <p class="bento-desc">Hojuelas crujientes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proceso Artesanal Section -->
+        <section class="historia section section-dark" id="historia">
+            <div class="container">
+                <div class="split-layout">
+                    <div class="split-img-wrapper fade-in-up">
+                        <img src="assets/proceso.png" alt="Elaboración de helado artesanal" class="split-img">
+                    </div>
+                    <div class="split-text fade-in-up" style="transition-delay: 0.2s;">
+                        <p class="section-subtitle">Nuestro Proceso</p>
+                        <h2 class="section-title">El tiempo es el mejor ingrediente.</h2>
+                        <p class="text-body">Nos alejamos de la prisa del mundo moderno para abrazar la lentitud de lo bien hecho. Cada lote de gelato L'Artigiano comienza con leche cruda y crema fresca, pasteurizada lentamente en nuestra cocina.</p>
+                        <p class="text-body">Sin premezclas, sin aromas artificiales, sin atajos. Solo ingredientes reales, madurados pacientemente durante 24 horas para desarrollar una profundidad de sabor que no se puede falsificar.</p>
+                        <a href="#ubicacion" class="btn btn-outline mt-4">Conócenos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Final -->
+        <section class="cta section">
+            <div class="container cta-container fade-in-up">
+                <h2 class="cta-title">¿Listo para probarlo?</h2>
+                <p class="cta-desc">Visítanos en nuestra heladería o pide tu gelato favorito para disfrutar en casa.</p>
+                <a href="#pedir" class="btn btn-primary btn-large">Haz tu Pedido</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="ubicacion">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#" class="logo footer-logo">L'Artigiano</a>
+                    <p class="footer-text">Elevando la tradición del gelato italiano mediante técnicas clásicas e ingredientes excepcionales.</p>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Encuéntranos</h4>
+                    <p class="footer-text">Av. de los Artesanos 123<br>Barrio Histórico, Ciudad<br>CP 10001</p>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Horarios</h4>
+                    <p class="footer-text">Mar - Jue: 12:00 - 20:00<br>Vie - Dom: 11:00 - 22:00<br>Lunes: Cerrado</p>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Síguenos</h4>
+                    <ul class="social-list">
+                        <li><a href="#" class="social-link">Instagram</a></li>
+                        <li><a href="#" class="social-link">Facebook</a></li>
+                        <li><a href="#" class="social-link">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 L'Artigiano Gelato. Todos los derechos reservados.</p>
+                <div class="footer-links">
+                    <a href="#">Privacidad</a>
+                    <a href="#">Términos</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+</body>
+</html>
